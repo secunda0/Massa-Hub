@@ -1,0 +1,42 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Massa Hub", "Synapse")
+
+--Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+local MiscHacksSection = Main:NewSection("Key: (GoodSurvival1188!GameRoblox23!1)")
+
+local MiscHacksSection = Main:NewSection("Misc Hacks")
+
+--ESP
+local ESP = Window:NewTab("ESP")
+local ESPSection = ESP:NewSection("ESP")
+
+--Simple Spy
+local SimpleSpy = Window:NewTab("SimpleSpy")
+local SimpleSpySection = SimpleSpy:NewSection("SimpleSpy")
+
+--Buttons Main
+MainSection:NewButton("Survival Game 1", "Stfu Bozo", function()
+    	loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/SurvivalGame/main/Roblox9012"))()
+end)
+
+MainSection:NewButton("Survival Game 2", "Stfu Bozo", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/qxkya/Kya-Ware/main/TheSurvivalGame.lua"))()
+end)
+
+--Buttons ESP
+ESPSection:NewButton("Universal ESP", "Stfu Bozo", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua"))()
+end)
+
+--Button SimpleSpy
+SimpleSpySection:NewButton("Simple Spy", "Stfu Bozo", function()
+    loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
+end)
+
+--Misc Hacks
+MiscHacksSection:NewButton("Infinite Yield", "Stfu Bozo", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
